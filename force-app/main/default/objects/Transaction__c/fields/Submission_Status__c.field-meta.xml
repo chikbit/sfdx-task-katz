@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Submission_Status__c</fullName>
+    <description>Field to track whether a transaction and its related Transaction Items were posted to External System. It will have either Values &apos;Submitted&apos; or &apos;Resubmit&apos;. All the transactions with &apos;Resubmit&apos; will be scheduled for resubmission.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field to track whether a transaction and its related Transaction Items were posted to External System. It will have either Values &apos;Submitted&apos; or &apos;Resubmit&apos;. All the transactions with &apos;Resubmit&apos; will be scheduled for resubmission.</inlineHelpText>
+    <label>Submission Status</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
